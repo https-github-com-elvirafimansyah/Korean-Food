@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald&family=Roboto:wght@300&display=swap');
+/* font-family: 'Lilita One', cursive; */
+:root {
+  --oswald: 'Oswald', sans-serif;
+  --roboto:'Roboto', sans-serif;
+  --fontone : 'Lilita One', cursive;
+  --red: #EB1616;
+  --pastelred: #F94747;
+  --pastelgray: #888888;
+  --lightred: #D24F32;
+  --lightgray: #757575;
+  --yellow: #F7BE27;
+  --gray: #333333;
+  --pink: #F9A9A9;
+  --pastelpink: #FDAFAF;
+  --brown: #B1401D;
+  --gray1: #283004;
+}
