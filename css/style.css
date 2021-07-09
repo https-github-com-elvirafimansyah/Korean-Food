@@ -20,6 +20,53 @@
   --brown: #B1401D;
   --gray1: #283004;
 }
+/*Navbar*/
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+.navbar-brand {
+  background-color: wheat;
+  border-radius: 50%;
+}
+.navbar-toggler {
+  color: black
+}
+/* Kegunaan */
+.iconify {
+  color: black !important;
+  width: 40px;
+  height: 40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  max-width: 100%;
+  overflow: hidden;
+  height: 500px;
+}
+.jumbotron .container {
+  text-align: left;
+  position: relative;
+  top: 25%;
+  color: white;
+  text-transform: uppercase;
+}
+.jumbotron .display-4 {
+  font-family: var(--fontone);
+  font-size: 60px;
+}
+.jumbotron p {
+  font-family: var(--oswald);
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.jumbotron p span {
+  color: var(--pastelred);
+  font-weight: 600;
+}
+/* Banner */
 #banner{
   padding: 5vh 0 5vh 0;
 }
@@ -30,4 +77,38 @@
 }
 .banner-img img{
   border-radius: 8px;
+}
+/* Desktop Version */
+@media (min-width: 992px) {
+  .navbar-brand {
+    background-color: wheat;
+    border-radius: 50%;
+  }
+  .nav-link {
+    margin-right: 20px;
+    color: white !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid var(--red);
+    width: 50%;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: -8px;
+  }
+  .iconify {
+    color: white !important;
+  }
+  .jumbotron {
+		margin-top: -87px;
+    height: 630px;
+	}
+  .jumbotron .display-4 {
+    font-size: 104px;
+  }
+  .jumbotron p {
+    font-size: 54px;
+  }
 }
