@@ -30,12 +30,31 @@
   background-color: wheat;
   border-radius: 50%;
 }
-/* Kegunaan */
-.iconify {
-  color: black !important;
+.navbar-toggler {
+  color: black
+}
+/* Icon */
+.shopicon {
+  color: black!important;
   width: 40px;
   height: 40px;
 }
+.staricon {
+  color: var(--yellow);
+  width: 20px;
+  height: 20px;
+}
+.loveicon {
+  width: 25px;
+  height: 25px;
+  color: var(--lightgray);
+}
+.loveicon:hover {
+  color: var(--lightred);
+  cursor: pointer;
+}
+/* Kegunaan */
+
 
 /* Jumbotron */
 .jumbotron {
@@ -65,7 +84,7 @@
 }
 /* Banner */
 #banner{
-  padding: 5vh 0 5vh 0;
+  padding: 15vh 0 5vh 0;
 }
 .banner-img{
   padding-bottom: 31px;
@@ -75,8 +94,82 @@
 .banner-img img{
   border-radius: 8px;
 }
+
+/* Flavor */
+#flavor {
+  margin-top: 7rem;
+}
+#flavor h1 {
+  font-family: var(--oswald);
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--red);
+}
+#flavor p {
+  font-family: var(--roboto);
+  color: var(--pastelgray);
+  font-weight: 200;
+  font-size: 20px;
+}
+#flavor .main-card {
+  width: 267px;
+  height: 444px;
+  border: 1px solid var(--pastelgray);
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+#flavor .card-flavor .front-card {
+  padding: 10px;
+}
+.card-flavor .card-img  img{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card-flavor .card-btn {
+  display: flex;
+  justify-content: space-evenly;
+  padding: -10px;
+}
+.card-flavor .card-text h3 {
+  font-family: var(--oswald);
+  font-size: 22px;
+  color: var(--brown);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.card-flavor .card-text span {
+  font-size: 15.2px;
+  margin-top: 1.5rem;
+  color: var(--lightgray);
+  font-family: var(--roboto);
+  font-weight: 550;
+}
+.card-flavor .card-btn {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.card-flavor .card-btn .prize button{
+  background: var(--lightred);
+  color: white;
+  font-family: var(--oswald);
+  font-size: 20px;
+}
+.card-flavor .card-btn .cart {
+  opacity: 0;
+  transition: 0.3s ease-in-out;;
+  font-size: 12px;
+  font-family: var(--roboto);
+  color: var(--gray);
+}
+.card-flavor .cart:hover {
+  opacity: 1;
+}
 /* Desktop Version */
 @media (min-width: 992px) {
+  .shopicon {
+    color: white!important;
+  }
   .navbar-brand {
     background-color: wheat;
     border-radius: 50%;
@@ -94,9 +187,6 @@
     padding-bottom: 5px;
     margin: auto;
     margin-bottom: -8px;
-  }
-  .iconify {
-    color: white !important;
   }
   .jumbotron {
 		margin-top: -87px;
