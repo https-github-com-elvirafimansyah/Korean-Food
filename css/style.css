@@ -20,3 +20,14 @@
   --brown: #B1401D;
   --gray1: #283004;
 }
+#banner{
+  padding: 5vh 0 5vh 0;
+}
+.banner-img{
+  padding-bottom: 31px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.banner-img img{
+  border-radius: 8px;
+}
