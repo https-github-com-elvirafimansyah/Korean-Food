@@ -283,6 +283,8 @@
 }
 #imageg .images .galery{
   padding-bottom: 3vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
 }
 /* Desktop Version */
 @media (min-width: 992px) {
