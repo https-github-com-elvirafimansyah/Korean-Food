@@ -191,42 +191,9 @@
   position: relative;
   top: 15%;
 }
-/*menu*/
-#menu{
-  padding: 10vh 0 10vh 0;
-}
-.card-menu{
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.card-judul{
-  font-size: 35px;
-  font-family: var(--oswald);
-  font-weight: 560;
-  padding-bottom: 20px;
-}
-.card-judul:after{
-  border-bottom: 4px solid var(--red);
-  display: block;
-  margin: auto;
-  width: 10%;
-  content: '';
-  padding-bottom: 6px;
-}
-.menu{
-  padding-bottom: 20px;
-}
-.menu-img{
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
-}
-.menu-img img{
-  border-radius: 8px;
-}
-.card-body a{
-  background-color: var(--pastelpink);
-  border-radius: 4px;
+/*poster*/
+#poster{
+  padding: 15vh 0 15vh 0;
 }
 /* Desktop Version */
 @media (min-width: 992px) {
