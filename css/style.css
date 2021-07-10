@@ -209,10 +209,9 @@
 #menu h1::after{
   border-bottom: 4px solid var(--red);
   display: block;
-  margin: auto;
-  width: 5%;
+  width: 6%;
   content: '';
-  padding-bottom: 6px;
+  padding-bottom: 8px;
 }
 #menu .main-card {
   height: 330px;
@@ -320,13 +319,6 @@
     position: relative;
     top: 5%;
   }
-	#menu .card-text {
-    text-align: center;
-  }
-  #menu .card-cart {
-    text-align: center;
-  }
-
 }
 
 
