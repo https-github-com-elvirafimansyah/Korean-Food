@@ -167,7 +167,7 @@
 }
 /*about*/
 #about{
-  padding: 10vh 0 15vh 0;
+  padding: 5vh 0 15vh 0;
   background-color: var(--lightred)
 }
 .image{
@@ -187,9 +187,9 @@
   text-align: left;
   font-family: var(--roboto);
 }
-.kenapa {
+#about .kenapa {
   position: relative;
-  top: 15%;
+  top: 25%;
 }
 /*poster*/
 #poster{
