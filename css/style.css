@@ -4,10 +4,13 @@
 /* font-family: 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald&family=Roboto:wght@300&display=swap');
 /* font-family: 'Lilita One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
 :root {
   --oswald: 'Oswald', sans-serif;
   --roboto:'Roboto', sans-serif;
   --fontone : 'Lilita One', cursive;
+	--poppins: 'Poppins', sans-serif;
   --red: #EB1616;
   --pastelred: #F94747;
   --pastelgray: #888888;
