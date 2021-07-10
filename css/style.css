@@ -262,24 +262,24 @@
   padding: 15vh 0 15vh 0;
 }
 /*image galery*/
-#macam{
+#imageg{
   padding: 5vh 0 6vh 0;
 }
-.image h1{
+#imageg .image-galery h1{
   font-family: var(--oswald);
   font-size: 60px;
   font-weight: 600;
   color: var(--red);
   padding-bottom: 1vh;
 }
-.image p{
+#imageg .image-galery p{
   font-family: var(--roboto);
   color: var(--pastelgray);
   font-weight: 200;
   font-size: 20px;
   padding-bottom: 3vh;
 }
-.images .galery{
+#imageg .images .galery{
   padding-bottom: 3vh;
 }
 /* Desktop Version */
