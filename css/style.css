@@ -284,6 +284,79 @@
 #imageg .images .galery{
   padding-bottom: 3vh;
 }
+/*testimonial*/
+#testimonial{
+  padding: 5vh 0 10vh 0;
+}
+.testimonial h1{
+  font-family: var(--oswald);
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--red);
+  padding-bottom: 1vh;
+}
+.testimonial p{
+  font-family: var(--roboto);
+  color: var(--pastelgray);
+  font-weight: 200;
+  font-size: 20px;
+  padding-bottom: 3vh;
+}
+.testi-card .card{
+  margin-bottom: 4vh;
+  border: none;
+  box-shadow: 1px 3px 45px 1px rgba(0,0,0,0.54);
+  -webkit-box-shadow: 1px 3px 45px 1px rgba(0,0,0,0.54);
+  -moz-box-shadow: 1px 3px 45px 1px rgba(0,0,0,0.54); 
+  background-color: black;
+}
+.testi-card .testi-img img{
+  border-radius: 50%;
+  width: 92px;
+  height: 95px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card .testi-title {
+  padding-top: 26px;
+  padding-left: 20px;
+}
+.card .testi-title h3{
+  font-family: var(--roboto);
+  font-size: 28px;
+  color: #EB1616;
+  font-weight: bold;
+}
+.card .card-job h4{
+  font-family: var(--roboto);
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.testi-isi p{
+  font-family: var(--roboto);
+  font-size: 18px;
+}
+.testi-btn{
+  border-radius: 20px;
+  background-color: red;
+}
+.testi-isi .btn{
+  background-color: #EB1616;
+  border-radius: 20px;
+  color: white;
+  font-family: var(--roboto);
+  text-transform: uppercase;
+}
+.testi-card1:hover{
+  transform: scale(1.02);
+}
+.testi-card2:hover{
+  transform: scale(1.02);
+}
+.testi-card{
+  transition: 0.5s;
+}
 /* Desktop Version */
 @media (min-width: 992px) {
   .shopicon {
