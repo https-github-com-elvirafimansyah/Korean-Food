@@ -357,6 +357,41 @@
 .testi-card{
   transition: 0.5s;
 }
+/*download app*/
+#app{
+  background-color: #D24F32; 
+}
+.appstore img{
+  width: 200px;
+  padding-bottom: 20px;
+}
+.playstores img{
+  width: 200px;
+  padding-bottom: 2rem;
+}
+.app-isi{
+  padding-top: 5rem;
+  margin-right: -100px;
+}
+.app-isi h3{
+  font-family: var(--oswald);
+  font-size: 43px;
+  color: white;
+}
+.app-isi h1{
+  font-family: var(--oswald);
+  font-size:85px;
+  font-weight: bolder;
+  color: #F9A9A9;
+}
+.app-isi p{
+  font-family: var(--roboto);
+  font-size: 25px;
+  color: white;
+}
+.app-image img{
+  width: 330px;
+}
 /* Desktop Version */
 @media (min-width: 992px) {
   .shopicon {
