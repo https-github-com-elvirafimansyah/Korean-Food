@@ -263,6 +263,9 @@
 #poster{
   padding: 15vh 0 15vh 0;
 }
+.gambar .poster-img{
+  padding-bottom: 3vh;
+}
 /*image galery*/
 #imageg{
   padding: 5vh 0 6vh 0;
