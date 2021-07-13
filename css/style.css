@@ -430,6 +430,18 @@
     position: relative;
     top: 5%;
   }
+	/*app*/
+  .playstores img{
+    margin-left: -100px;
+    width: 200px;
+  }
+  .app-image img{
+    width: 600px;
+  }
+  .app-isi{
+    padding-top: 9rem;
+    margin-right: -100px;
+  }
 }
 
 
