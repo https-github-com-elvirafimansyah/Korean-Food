@@ -480,6 +480,47 @@
 .app-image img{
   width: 330px;
 }
+/* Loccation */
+#local {
+  padding-bottom: 7.5rem;
+}
+#local h1 {
+  font-family: var(--oswald);
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--red);
+}
+#local p{
+  font-family: var(--roboto);
+  color: var(--pastelgray);
+  font-weight: 200;
+  font-size: 20px;
+}
+#local .card-local .card-text {
+  font-family: var(--oswald);
+  margin: 1rem 0;
+}
+#local .card-local .card-text h4 {
+  color: var(--red);
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+#local .card-local .card-text h4 span {
+  color: var(--brown);
+  font-size: 19.5px;
+}
+#local .card-local .card-text h5 {
+  color: var(--brown);
+  font-size: 19.5px;
+  font-weight: 600;
+}
+#local .card-local .card-text h5 span {
+  font-family: var(--roboto);
+  font-size: 18.4px;
+  color: #757575;
+  font-weight: lighter;
+}
 /* Desktop Version */
 @media (min-width: 992px) {
   .shopicon {
