@@ -521,6 +521,38 @@
   color: #757575;
   font-weight: lighter;
 }
+/* Contact */
+#contact {
+  height: 700px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  text-transform: uppercase;
+  color: white;
+  font-family: var(--oswald);
+  padding-top: 30%;
+}
+#contact h3 {
+  font-size: 25px;
+}
+#contact h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+#contact  p {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: var(--roboto);
+  text-transform: lowercase;
+}
+#contact .btn {
+  width: 256px;
+  height: 58px;
+  background: var(--red);
+  font-size: 22px;
+  font-weight: bold;
+  font-family: var(--roboto);
+  text-transform: uppercase;
+}
 /* Desktop Version */
 @media (min-width: 992px) {
   .shopicon {
@@ -577,6 +609,27 @@
   #megamenu .main-card:hover {
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.1);
     cursor: pointer;
+  }
+	#contact {
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+  }
+  #contact h3 {
+    font-size: 38px;
+  }
+  #contact h1 {
+    font-size: 72px;
+    font-weight: bold;
+  }
+  #contact  p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: var(--roboto);
+    text-transform: lowercase;
   }
 }
 
