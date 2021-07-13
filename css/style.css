@@ -482,7 +482,7 @@
 }
 /* Loccation */
 #local {
-  padding-bottom: 7.5rem;
+  padding: 7.5rem 0;
 }
 #local h1 {
   font-family: var(--oswald);
