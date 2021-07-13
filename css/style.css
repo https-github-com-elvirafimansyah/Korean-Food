@@ -266,6 +266,59 @@
 .gambar .poster-img{
   padding-bottom: 3vh;
 }
+/* Mega Menu */
+#megamenu {
+  overflow: hidden;
+  padding: 7.5rem 0;
+}
+#megamenu h1 {
+  font-family: var(--oswald);
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--red);
+}
+#megamenu .front-text p {
+  font-family: var(--roboto);
+  color: var(--pastelgray);
+  font-weight: 200;
+  font-size: 20px;
+}
+#megamenu .main-card {
+  background:var(--lightgray2);
+  padding: 35px 0;
+  border-radius: 8px;
+  transform: 0.5s ease-in-out;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.1);
+
+}
+#megamenu .main-card2 {
+  background: white;
+}
+#megamenu .card-mega .card-text {
+  font-family: var(--oswald);
+}
+#megamenu .card-mega .card-text h1 {
+  font-size: 30px;
+  color: var(--brown);
+  font-weight: 700;
+}
+#megamenu .card-mega .card-text p{
+  color: var(--gray);
+  font-weight: 550;
+}
+#megamenu .card-mega .card-des {
+  font-family: var(--roboto);
+}
+#megamenu .card-mega .card-des h4 {
+  font-weight: 200;
+  font-size: 18.4px;
+}
+#megamenu .card-mega .card-des span {
+  color: var(--red);
+  font-weight: bold;
+  font-size: 28px;
+}
 /*image galery*/
 #imageg{
   padding: 5vh 0 6vh 0;
