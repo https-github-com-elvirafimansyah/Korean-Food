@@ -498,6 +498,13 @@
     padding-top: 9rem;
     margin-right: -100px;
   }
+	#megamenu .main-card {
+    box-shadow: none;
+  }
+  #megamenu .main-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
 }
 
 
