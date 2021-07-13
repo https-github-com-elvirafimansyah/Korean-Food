@@ -320,25 +320,84 @@
   font-size: 28px;
 }
 /*image galery*/
-#imageg{
-  padding: 5vh 0 6vh 0;
-}
-#imageg .image-galery h1{
+.section-title h2{
+  text-align: center;
   font-family: var(--oswald);
   font-size: 60px;
-  font-weight: 600;
   color: var(--red);
-  padding-bottom: 1vh;
+  font-weight: bold;
 }
-#imageg .image-galery p{
+.section-title p{
+  text-align: center;
   font-family: var(--roboto);
-  color: var(--pastelgray);
-  font-weight: 200;
   font-size: 20px;
-  padding-bottom: 3vh;
+  color: var(--lightgray);
+  padding-bottom: 2rem;
 }
-#imageg .images .galery{
-  padding-bottom: 3vh;
+#galery{
+  padding: 12vh 0 6vh 0;
+}
+.social a{
+  color: white;
+  text-decoration: none;
+  font-family: var(--oswald);
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.social a:hover{
+  color: white;
+}
+.team .galery .member-img img:hover{
+  filter: brightness(30%);
+  transition: 0.5s;
+}
+.team .galery{
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.team .galery .member-img{
+  position: relative;
+  overflow: hidden;
+}
+.team .galery .social{
+  position: absolute;
+  left: 0;
+  top: 72%;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  padding-left: 0px;
+}
+.team .galery:hover .social{
+  opacity: 1;
+  bottom: 15px;
+}
+.team .galery.social a{
+  transition: color 0.3s;
+}
+.team .galery .social i{
+  font-size: 18px;
+}
+.team .galery .member-info{
+  padding: 15px 15px;
+}
+.team .galery .member-info h3{
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #f4acbc;
+}
+.team .galery .member-info h4{
+  font-size: 17px;
+  font-weight: 500;
+}
+.team .galery .member-info h2{
+  font-size: 18px;
+  font-weight: 600;
+  color: #7D5961;
 }
 /*testimonial*/
 #testimonial{
