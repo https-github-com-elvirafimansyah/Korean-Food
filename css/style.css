@@ -616,6 +616,24 @@
   font-family: var(--roboto);
   text-transform: uppercase;
 }
+/* Footer */ 
+footer img{
+  margin-left: -10px;
+}
+footer .dark-icon {
+  color: black;
+  padding-right: 1rem;
+}
+footer p {
+  font-family: var(--roboto);
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+footer span {
+  font-family: var(--roboto);
+  color: var(--gray1);
+}
 /* Desktop Version */
 @media (min-width: 992px) {
   .shopicon {
