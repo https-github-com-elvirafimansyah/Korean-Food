@@ -523,14 +523,21 @@
 #app{
   background-color: #D24F32; 
 }
+.store {
+  display: flex;
+  flex-direction: row;
+}
 .appstore img{
   width: 200px;
   padding-bottom: 20px;
 }
 .playstores img{
   width: 200px;
-  padding-bottom: 2rem;
+  margin-right: 50px;
+  position: relative;
+  left: 80%;
 }
+
 .app-isi{
   padding-top: 5rem;
   margin-right: -100px;
