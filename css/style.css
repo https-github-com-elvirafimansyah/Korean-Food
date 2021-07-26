@@ -525,7 +525,7 @@
 }
 .store {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .appstore img{
   width: 200px;
@@ -535,7 +535,7 @@
   width: 200px;
   margin-right: 50px;
   position: relative;
-  left: 80%;
+  left: 0;
 }
 
 .app-isi{
@@ -697,6 +697,8 @@ footer span {
   .playstores img{
     margin-left: -100px;
     width: 200px;
+    position: relative;
+    left: 80%;
   }
   .app-image img{
     width: 600px;
@@ -704,6 +706,9 @@ footer span {
   .app-isi{
     padding-top: 9rem;
     margin-right: -100px;
+  }
+	.store {
+    flex-direction: row;
   }
 	#megamenu .main-card {
     box-shadow: none;
