@@ -707,10 +707,11 @@ footer span {
     padding-top: 9rem;
     margin-right: -100px;
   }
-	.store {
-    flex-direction: row;
+  .store {
+    display: flex;
+    flex-direction: column;
   }
-	#megamenu .main-card {
+  #megamenu .main-card {
     box-shadow: none;
   }
   #megamenu .main-card:hover {
