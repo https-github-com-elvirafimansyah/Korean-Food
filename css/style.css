@@ -508,6 +508,9 @@
   text-transform: uppercase;
   font-size: 15.6px;
 }
+#events .card-events .catering-card{
+  border: none;
+}
 /*download app*/
 #app{
   background-color: #D24F32; 
