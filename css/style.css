@@ -550,6 +550,9 @@
 #local {
   padding: 7.5rem 0;
 }
+#local .card-local{
+  border: none;
+}
 #local h1 {
   font-family: var(--oswald);
   font-size: 60px;
@@ -714,6 +717,10 @@ footer span {
     font-weight: lighter;
     font-family: var(--roboto);
     text-transform: lowercase;
+  }
+  /*location*/
+  #local .local-card{
+    padding: 0 4rem;
   }
 }
 
