@@ -609,7 +609,7 @@
 #contact {
   height: 700px;
   background-repeat: no-repeat;
-  max-width: 100%;
+  background-size: cover;
   text-transform: uppercase;
   color: white;
   font-family: var(--oswald);
