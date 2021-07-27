@@ -186,7 +186,7 @@
 }
 /*about*/
 #about{
-  padding: 5vh 0 18vh 0;
+  padding: 5vh 0 22vh 0;
   background-color: var(--lightred)
 }
 .image{
@@ -692,6 +692,10 @@ footer span {
   .kenapa {
     position: relative;
     top: 5%;
+  }
+  #about{
+    padding: 5vh 0 10vh 0;
+    background-color: var(--lightred)
   }
   /*app*/
   .playstores img{
