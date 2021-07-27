@@ -523,21 +523,14 @@
 #app{
   background-color: #D24F32; 
 }
-.store {
-  display: flex;
-  flex-direction: column;
-}
 .appstore img{
   width: 200px;
   padding-bottom: 20px;
 }
 .playstores img{
   width: 200px;
-  margin-right: 50px;
-  position: relative;
-  left: 0;
+  padding-bottom: 2rem;
 }
-
 .app-isi{
   padding-top: 5rem;
   margin-right: -100px;
@@ -700,20 +693,18 @@ footer span {
   /*app*/
   .playstores img{
     margin-left: -100px;
-    width: 200px;
-    position: relative;
-    left: 80%;
+    width: 250px;
+    padding-left: 38px;
   }
   .app-image img{
     width: 600px;
   }
+  .appstore img{
+    width: 213px;
+  }
   .app-isi{
     padding-top: 9rem;
     margin-right: -100px;
-  }
-  .store {
-    display: flex;
-    flex-direction: column;
   }
   #megamenu .main-card {
     box-shadow: none;
